@@ -55,6 +55,34 @@
                 </div>
                 <div class="ui container text">
                     <h1 class="ui header centered inverted">Look up for a ride</h1>
+                    <div class="container fluid findbg">
+                        <form class="ui form">
+                            <div class="field">
+                                <div class="fields">
+                                    <div class="eleven wide field">
+                                        <div class="ui search location">
+                                            <div class="ui left icon input">
+                                                <i class="inverted circular blue map icon"></i>
+                                                <input class="prompt" type="text" name="location" placeholder="Enter your location..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="three wide field">
+                                        <div class="ui selection dropdown">
+                                            <div class="default text">Ride Type</div>
+                                            <i class="dropdown icon"></i>
+                                            <input type="hidden" name="ride" />
+                                            <div class="menu">
+                                                <div class="item" data-value="private">Private</div>
+                                                <div class="item" data-value="2private">2-Private</div>
+                                                <div class="item" data-value="3private">3-Private</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
