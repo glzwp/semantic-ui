@@ -12,3 +12,8 @@
 .menu{
     border: 0px!important;
 }
+.ui.header:first-child {
+    margin-top: 4.2em;
+    margin-bottom: 0.11em;
+    font-weight: 100;
+}
