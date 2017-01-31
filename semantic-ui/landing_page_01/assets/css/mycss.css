@@ -23,3 +23,17 @@
     width: 100%;
     background: rgba(255,255,255,0.7);
 }
+
+.secondary.pointing.menu .toc.item{
+    display:none;
+}
+
+@media only screen and (max-width: 767px){
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .ui.buttons {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display:block;
+    }
+}
