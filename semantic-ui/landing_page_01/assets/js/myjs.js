@@ -2,7 +2,7 @@
 $('.ui.dropdown').dropdown();
 
 //sidebar
-$('.ui.sidebar').sidebar('attach events', '.toc.item');
+$('.ui.sidebar').sidebar('attach events', '.toc.item').sidebar('setting', 'transition', 'overlay');
 
 var city_location = [
     {
