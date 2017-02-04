@@ -32,8 +32,12 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="landing_page_01\assets\js\myjs.js" />
+    <Compile Include="landing_page_02\assets\js\myjs.js" />
     <Content Include="landing_page_01\assets\css\mycss.css" />
     <Content Include="landing_page_01\index.html" />
+    <Content Include="landing_page_02\assets\css\mycss.css" />
+    <Content Include="landing_page_02\assets\img\bg.jpg" />
+    <Content Include="landing_page_02\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
@@ -43,6 +47,11 @@
     <Folder Include="landing_page_01\assets\css\" />
     <Folder Include="landing_page_01\assets\js\" />
     <Folder Include="landing_page_01\assets\img\" />
+    <Folder Include="landing_page_02\" />
+    <Folder Include="landing_page_02\assets\" />
+    <Folder Include="landing_page_02\assets\css\" />
+    <Folder Include="landing_page_02\assets\img\" />
+    <Folder Include="landing_page_02\assets\js\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />

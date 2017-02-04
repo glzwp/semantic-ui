@@ -1,0 +1,16 @@
+﻿
+.transbg{
+    min-height: 500px;
+    background: rgba(255,255,255,0.0);
+}
+.menu{
+    border: 0px!important;
+}
+.landing h1.ui.header {
+    margin-top: 2em;
+    margin-bottom: 0.11em;
+    font-weight: 100;
+    font-size:4.2rem;
+}
+
+
